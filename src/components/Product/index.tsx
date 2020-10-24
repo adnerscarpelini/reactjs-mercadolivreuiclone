@@ -5,6 +5,7 @@ import tshirtImage from '../../assets/tshirt.png';
 
 //Componentes
 import SellerInfo from '../SellerInfo';
+import ProductAction from '../ProductAction';
 
 import { Container, Row, Panel, Column, Gallery, Section, Description } from './styles';
 
@@ -31,8 +32,8 @@ const Product: React.FC = () => {
 
         {/* Segunda coluna coloco ass sessões de garantia*/}
         <Column>
-          {/* <ProductAction /> */}
-            <SellerInfo />
+          <ProductAction />
+          <SellerInfo />
 
           <WarrantySection />
           <WarrantySection />

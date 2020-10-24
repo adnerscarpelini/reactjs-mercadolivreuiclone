@@ -1,4 +1,5 @@
 import React from 'react';
+import Header from '../Header';
 import Footer from '../Footer';
 import Product from '../Product';
 
@@ -10,13 +11,13 @@ const Layout: React.FC = () => {
 
     // Container é a pagina toda, enquanto o Wrapper é o conteúdo que fica o produto
     <Container>
-      {/* <Header /> */}
+      <Header />
 
       <Wrapper>
         <Product />
       </Wrapper>
 
-      {/* <Footer /> */}
+      <Footer />
 
     </Container>
   );
