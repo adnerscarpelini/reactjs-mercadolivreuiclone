@@ -1,4 +1,4 @@
-# ReactJS - Mercadolivre Clone
+# ReactJS - Mercadolivre UI Clone
 RocketSeat trainning.
 UI clone of the MercadoLivre website sales page interface.
 
